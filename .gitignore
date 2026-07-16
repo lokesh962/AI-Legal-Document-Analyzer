@@ -1,0 +1,74 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Uploads
+uploads/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# ==========================
+# React / Vite
+# ==========================
+frontend/node_modules/
+frontend/dist/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# Firebase
+# ==========================
+.firebase/
+firebase-debug.log
+
+# ==========================
+# Render
+# ==========================
+.render/
+
+# ==========================
+# Build Files
+# ==========================
+build/
+dist/
+
+# ==========================
+# Misc
+# ==========================
+*.sqlite3
+*.db
+*.bak
+*.tmp

@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "ai-legal-document-analyz-ee593"
+  },
+  "targets": {
+    "ai-legal-document-analyz-ee593": {
+      "hosting": {
+        "frontend": [
+          "ai-legal-doc-analyzer-frontend"
+        ],
+        "app": [
+          "ai-legal-doc-analyzer"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
